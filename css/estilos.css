@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,500;1,300&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {font-family: "Quicksand", sans-serif; font-weight: 700;font-size: 3em;}
+h4 {font-family: "IBM Plex Sans", sans-serif;font-weight: 300; line-height: 30px; font-size: 1em; width: 40%;}
+h3 {font-family: "Quicksand", sans-serif; font-weight: 700;font-size: 1.5em;}
+
+
+header a {
+    transition: all 1s 1s linear;
+}
+
+header a:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: rgb(0, 14, 145);
+    color: white;
+    width: 300px;
+}
+
+body {
+    background-color: rgb(253, 247, 232);color: rgb(0, 14, 145);
+    font-family: "IBM Plex Sans", sans-serif;font-weight: 500;
+    margin: 3%;
+
+[title="Instagram"]{
+
+    width:100px;
+    height: 30px;
+    background-color: rgb(253, 247, 232);
+    color: rgb(0, 14, 145);
+    border: 2px solid #000477;
+    display: block;
+    text-align:center;
+    line-height: 30px;
+    transition: all 2s ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+
+}
+main>div {
+
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+div img{
+    width: 100%;
+    margin-right: 20px;
+    border:2px solid rgb(0, 14, 145);
+    
+}
+section {
+   width: 100%;
+
+}
+section h4 {
+    width: 40%;
+    font-weight: 300;
+    line-height: 40px;
+    display: flex;
+}
+section img {
+
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding: 50px;
+}
+
+section img:hover {
+filter: grayscale(100%);
+transition-property: all;
+transition-duration: 3s;
+}
+
+
+
+}
+@media(max-width:768px) {
+
+    div {
+        width: 30%;
+        margin-bottom: 50px;
+    }
+
+    body {
+        font-size: 12px;
+    }
+
+    * {
+        line-height: 50px !important;
+    }
+
+    section {
+
+    flex-direction: column;
+   
+    }
+
+}
+
